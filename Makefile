@@ -2,6 +2,10 @@
 build:
 	@seatools build
 
+site:
+	@seatools build
+	@seatools site
+
 test: test_node test_local test_http
 
 test_node:
@@ -23,4 +27,4 @@ size:
 	@seatools size
 
 pages:
-	@seatools pages
+	@seatools publish

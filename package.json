@@ -1,7 +1,7 @@
 {
   "family": "seajs",
   "name": "seajs",
-  "version": "2.2.0",
+  "version": "3.0.0",
   "description": "A Module Loader for the Web",
   "homepage": "http://seajs.org/",
   "keywords": ["module", "loader"],
@@ -11,13 +11,16 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "seatools": "*"
+    "seatools": "0.5.12"
   },
   "repository": {
     "type": "git",
     "url": "git://github.com/seajs/seajs.git"
   },
   "main": "./lib/sea.js",
+  "spm": {
+    "main": "./dist/sea.js"
+  },
   "licenses": [
     {
       "type": "MIT",
